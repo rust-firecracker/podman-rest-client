@@ -1,5 +1,3 @@
-#![cfg(feature = "v5")]
-
 use podman_rest_client::v5::models;
 use podman_rest_client::v5::params;
 use podman_rest_client::v5::Client;

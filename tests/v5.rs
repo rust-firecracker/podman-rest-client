@@ -1,5 +1,3 @@
-#![cfg(feature = "v5")]
-
 use assert_matches::assert_matches;
 
 use bytes::Bytes;

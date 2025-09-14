@@ -122,6 +122,7 @@ impl TryFrom<&Yaml> for Type {
 
 pub struct BodyParameter {
     pub name: String,
+    #[allow(unused)]
     pub description: Option<String>,
     pub model: Model,
 }

@@ -20,14 +20,14 @@ pub fn is_keyword(var: &str) -> bool {
 
 fn boundaries() -> Vec<Boundary> {
     vec![
-        Boundary::Acronym,
-        Boundary::Underscore,
-        Boundary::Hyphen,
-        Boundary::Space,
-        Boundary::LowerUpper,
-        Boundary::UpperDigit,
-        Boundary::DigitUpper,
-        Boundary::DigitLower,
+        Boundary::ACRONYM,
+        Boundary::UNDERSCORE,
+        Boundary::HYPHEN,
+        Boundary::SPACE,
+        Boundary::LOWER_UPPER,
+        Boundary::UPPER_DIGIT,
+        Boundary::DIGIT_UPPER,
+        Boundary::DIGIT_LOWER,
     ]
 }
 
